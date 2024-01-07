@@ -1,5 +1,10 @@
-header{
+header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+
 }
 
 
@@ -8,7 +13,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 nav ul>li {
@@ -33,20 +38,50 @@ nav a {
 .btn {
 
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     border-radius: 5px;
     background: #FD6E0A;
     border: 0px;
-    padding: 18px 35px;
+    padding: 18px 30px;
     color: #FFF;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 10px;
 }
 
 .portfolio {
-    color:#181818;
+    color: #181818;
     font-family: Open Sans;
     font-size: 45px;
     font-weight: 800;
+}
+
+.greeting {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.greeting-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 500px;
+    padding-right:200px;
+    
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+  
 }
